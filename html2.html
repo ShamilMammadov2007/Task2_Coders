@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My site from Bootstrap</title>
+    <link rel="stylesheet" href="style2.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">My site</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacts</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container text-center">
+            <h1 class="display-4">Welcome to our site! 🎉</h1>
+            <p class="lead">This is my first site made with Bootstrap </p>
+            <a href="#" class="btn btn-primary btn-lg">Learn more</a>
+        </div>
+    </section>
+
+    <!-- Body with RPG-style Career Cards -->
+    <div class="container">
+        <div class="row">
+            <!-- Frontend Path -->
+            <div class="col-md-4">
+                <div class="card h-100 border-primary">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="mb-0">🛡️ Frontend RPG</h5>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="text-primary">LVL 1 → LVL 3</h6>
+                        <ul class="skill-list">
+                            <li><strong>LVL 1 (Newbie):</strong> HTML/CSS, Git <span
+                                    class="badge bg-success">$500-800</span></li>
+                            <li><strong>LVL 2 (Junior):</strong> JavaScript + React <span
+                                    class="badge bg-warning">$800-1500</span></li>
+                            <li><strong>LVL 3 (Mid):</strong> Advanced React, Node.js <span
+                                    class="badge bg-danger">$1500-3000</span></li>
+                        </ul>
+                        <div class="progress mt-3">
+                            <div class="progress-bar bg-primary" style="width: 100%">3 levels</div>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-primary w-100">Choose Class</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Backend Path -->
+            <div class="col-md-4">
+                <div class="card h-100 border-danger">
+                    <div class="card-header bg-danger text-white">
+                        <h5 class="mb-0">⚔️ Backend RPG</h5>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="text-danger">LVL 1 → LVL 3</h6>
+                        <ul class="skill-list">
+                            <li><strong>LVL 1 (Newbie):</strong> Python/Java <span
+                                    class="badge bg-success">$600-900</span></li>
+                            <li><strong>LVL 2 (Junior):</strong> APIs, Databases <span
+                                    class="badge bg-warning">$900-1600</span></li>
+                            <li><strong>LVL 3 (Mid):</strong> Microservices, Cloud <span
+                                    class="badge bg-danger">$1600-3200</span></li>
+                        </ul>
+                        <div class="progress mt-3">
+                            <div class="progress-bar bg-danger" style="width: 100%">3 levels</div>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-danger w-100">Choose Class</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- DevOps Path -->
+            <div class="col-md-4">
+                <div class="card h-100 border-warning">
+                    <div class="card-header bg-warning text-dark">
+                        <h5 class="mb-0">🧙 DevOps RPG</h5>
+                    </div>
+                    <div class="card-body">
+                        <h6 class="text-warning">LVL 1 → LVL 3</h6>
+                        <ul class="skill-list">
+                            <li><strong>LVL 1 (Newbie):</strong> Linux, Bash <span
+                                    class="badge bg-success">$700-1000</span></li>
+                            <li><strong>LVL 2 (Junior):</strong> Docker, CI/CD <span
+                                    class="badge bg-warning">$1000-1800</span></li>
+                            <li><strong>LVL 3 (Mid):</strong> Kubernetes, AWS <span
+                                    class="badge bg-danger">$1800-3500</span></li>
+                        </ul>
+                        <div class="progress mt-3">
+                            <div class="progress-bar bg-warning" style="width: 100%">3 levels</div>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-warning w-100">Choose Class</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>About our company</h5>
+                    <p>We are a team of professionals helping everyone to move forward in the IT sphere. Our mission is
+                        to interest you and pass on our skills and knowledge to you!</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Quick links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Home</a></li>
+                        <li><a href="#" class="text-white">About us</a></li>
+                        <li><a href="#" class="text-white">Services</a></li>
+                        <li><a href="#" class="text-white">Portfolio</a></li>
+                        <li><a href="#" class="text-white">Contacts</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contacts</h5>
+                    <address>
+                        <strong>Our office</strong><br>
+                        Azerbaijan, Baku, 10 Nakhchivan<br>
+                        <div class="map-responsive mt-3">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.1756583773054!2d49.821860117443826!3d40.382799299999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307da6f327d463%3A0xbe68553e791e5e84!2sCoders%20Azerbaijan!5e0!3m2!1sru!2saz!4v1754414694675!5m2!1sru!2saz"
+                                width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <br>
+                        <abbr title="Phone"><strong>Phone:</strong></abbr> +994 55 256 71 51<br>
+                        <abbr title="Phone"><strong>Phone:</strong></abbr> +994 10 417 71 51<br>
+                        <abbr title="Email"><strong>Email:</strong></abbr> shamil.mamedov1979@gmail.com
+                    </address>
+                </div>
+            </div>
+            <hr class="bg-light">
+            <div class="text-center">
+                <p class="mb-0">&copy; 2025 My Site. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

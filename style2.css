@@ -1,0 +1,79 @@
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 2rem 0;
+    margin-top: 2rem;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: #adb5bd;
+}
+
+.card {
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+}
+
+.skill-list li {
+    margin-bottom: 0.5rem;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.hero-section {
+    background-color: #f8f9fa;
+    padding: 4rem 0;
+    margin-bottom: 2rem;
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+
+.btn-danger:hover {
+    background-color: #bb2d3b;
+    border-color: #b02a37;
+}
+
+.navbar-nav .nav-link.active {
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.btn-warning:hover {
+    background-color: #ffca2c;
+    border-color: #ffc720;
+}
+
+.progress-bar {
+    transition: width 0.6s ease;
+}
+
+@media (max-width: 768px) {
+    .footer .col-md-4 {
+        margin-bottom: 1.5rem;
+    }
+}
